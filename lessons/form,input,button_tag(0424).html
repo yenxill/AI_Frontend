@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>프론트엔드 수업 3일차</title>
+</head>
+<body>
+
+  <!--아이디-->
+  <form id="myForm" action="/" method="get" target="_self">
+    <input 
+      id="userId" 
+      name="userId" 
+      type="text" 
+      value="" 
+      placeholder="아이디"
+      maxlength=""
+      required/><br>
+
+      <!--비밀번호-->
+      <input id="pw" name="pw" type="password" 
+        placeholder="비밀번호" maxlength="16" required/><br>
+
+      <!--이메일-->
+      <input id="email" name="email" type="email" 
+        placeholder="이메일"maxlength=""/><br>
+
+      <br>
+
+      <!--성별-->
+      <label><input name="gender" type="checkbox" value="men"/>남자<br></label>
+      <input name="gender" type="checkbox" value="women"/>여자<br>
+
+      <br>
+
+      <!--취미-->
+      <label><input name="hobby" type="radio" value="book"/>책</label>
+      <label><input name="hobby" type="radio" value="walking"/>산책</label>
+      <label><input name="hobby" type="radio" value="swimming"/>수영</label>
+      <br>
+      <button type="submit">제출</button>
+
+
+  </form>
+
+  <!-- <script>
+    document.getElementById("myForm").addEventListener("submit",function(e) {
+      e.preventDefault();
+      const myForm = new FormData(this);
+
+      for(let [key, value] of myForm.entries()){
+        console.log(이름, 값);
+      }
+    })
+  </script> -->
+  
+</body>
+</html>
