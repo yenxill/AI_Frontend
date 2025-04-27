@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>프론트 4일차 css 수업/실습</title>
+</head>
+
+<style>
+  .box {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    border: 2px solid blue;
+    margin: 20px;
+    padding: 10px;
+  }
+
+  .box-no-padding{
+    padding: 0;
+  }
+
+  .box-no-margin {
+    margin: 0;
+  }
+</style>
+
+
+<body>
+  <h1>padding과 margin 예제</h1>
+  
+  <!-- 기본박스 -->
+  <div class="box">
+    <p>기본박스</p>
+  </div>
+
+  <!-- 내부 여백 없음 -->
+  <div class="box box-no-padding">
+    <p>내부 여백 없음</p>
+  </div>
+
+  <!-- 외부 여백 없음 -->
+  <div class="box box-no-margin">
+    <p>외부 여백 없음</p>
+  </div>
+
+  <br>
+
+  <div style="width: 600px; height: 500px; background-color: yellowgreen;">
+    <div style="width: 50%; height: 100%; background-color: blanchedalmond;"></div>
+  </div>
+
+  <br>
+
+  <link rel="stylesheet" href="../css/custom_style(0425).css" type="text/css">
+  <div class="div-test">dddddd</div>
+  
+</body>
+</html>
