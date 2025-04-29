@@ -1,0 +1,16 @@
+h1,
+h2,
+p {
+  color: blue;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.box,
+.container,
+.item {
+  border: 2px solid black;
+  padding:  10px;
+  margin: 10px;
+  background-color: gray;
+}
