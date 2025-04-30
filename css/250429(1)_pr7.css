@@ -1,0 +1,38 @@
+h2 {
+  text-align: center;
+}
+
+.form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.button {
+  width: 100%;
+  padding: 10px;
+  background-color: skyblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.table {
+  width: 50%;
+  margin: 20px auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.th, td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
