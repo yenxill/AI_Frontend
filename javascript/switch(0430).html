@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>javascript 수업</title>
+</head>
+<body>
+
+  <script>
+
+    // 조건문 switch 문법
+
+    /*
+    switch(변수 혹은 데이터 값) {
+      case[비교할 데이터의 값] :
+        실행될 코드1;
+        break;
+      case[비교할 데이터의 값] :
+        실행될 코드2;
+        break;
+      default:
+        실행도리 코드 default 값;
+    }
+    */
+
+    
+    let day = "토요일";
+
+    switch(day) {
+      case "월요일":
+        console.log("집가고 싶다");
+        break;
+
+      case "화요일":
+        console.log("집가고 싶어");
+        break;
+
+      case "토요일":
+        console.log("주말");
+        break;
+
+      case "일요일":
+        console.log("내일 출근");
+        break;
+
+      default:
+        console.log("일주일 끝");
+    }
+
+    // break 중단/실행 X
+    switch(day) {
+      case "월요일":
+        console.log("집가고 싶다");
+
+      case "화요일":
+        console.log("집가고 싶어");
+
+      case "토요일":
+      case "일요일":
+        console.log("내일 출근");
+        break;
+
+      default:
+        console.log("일주일 끝");
+    }
+ 
+  </script>
+  
+</body>
+</html>
