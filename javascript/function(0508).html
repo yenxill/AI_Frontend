@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>프론트 수업 9일차 - 함수</title>
+</head>
+<body>
+  <script>
+    //함수
+    function add(x,y){
+      console.log(x + y);
+    }
+
+    //함수 선언할 때 함수명은 이함수가 어떤 기능을 하는 함수인지 이해하기 쉽게 작명해야함
+    let charter = {name : "kk", power:"10"};
+    let charter2 = 1;
+
+    printObjectItem(charter2);
+    function printObjectItem(obj) {
+      for(let key in obj) {
+        console.log(obc[key]);
+      }
+    }
+
+    //함수의 매개변수와 인자
+    // function dd(이름, 나이) {
+    //   console.log(`이름 : ${dd}, 나이: ${20}`);
+    // }
+    // 소개("밥", 25);
+
+
+    //함수의 기본값
+    // function 기본값예제 (이름 ="손님") {
+    //   console.log(`환영합니다. ${이름}!`);
+
+    // }
+    // 기본예제(); //기본값 사용
+    // 기본예제("제인"); //기본값 무시
+
+
+    //간단한 계산기
+    const ex = function(a,b) {
+      return a + b ;
+    }
+    console.log("합계:", ex(5,3));
+
+    const ex1 = function(a,b) {
+      return a - b ;
+    }
+    console.log("합계:", ex1(10,4));
+
+    const ex2 = (x,y) => x*y;
+    console.log("곱하기:", ex2(7,1));
+
+    const ex3 = (x,y) => x*y;
+    console.log("곱하기:", ex3(7,3));
+
+    // function ex5(...number5) {
+    //   return number5.reduce(());
+    // }
+    //console.log("숫자 목록:" ,합계(1,2,3,4,5));
+</script>
+</body>
+</html>
